@@ -1,31 +1,42 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="googlebot" content="noindex,nofollow">
-<title>#206 山浅龍之介（内部用）</title><style>
+<!--fbsite-locked--><!doctype html><html lang=ja><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>スタッフ用</title><style>
 *{box-sizing:border-box}body{margin:0;font-family:'Hiragino Sans',sans-serif;background:#eef2f8;color:#1a2233}
-.wrap{max-width:720px;margin:0 auto;padding:18px}
-.head{background:linear-gradient(135deg,#0b2d6b,#12459e);color:#fff;border-radius:14px;padding:18px 20px;border-bottom:4px solid #d7000f}
-.head h1{margin:0;font-size:22px} .head p{margin:6px 0 0;font-size:12px;opacity:.9}
-.sec{font-size:14px;font-weight:800;color:#0b2d6b;border-left:5px solid #d7000f;padding-left:9px;margin:22px 0 8px}
-a.item{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e1e8f3;border-radius:12px;
-  padding:14px 16px;margin-top:9px;text-decoration:none;color:#1a2233;box-shadow:0 1px 4px rgba(11,45,107,.08)}
-a.item:active{background:#f3f7ff}
-.badge{font-size:11px;font-weight:800;color:#fff;background:#12459e;border-radius:6px;padding:3px 9px;white-space:nowrap}
-.badge.w{background:#1b9e77}
-.badge.m{background:#6b7688}
-.t{font-size:15px;font-weight:700} .d{font-size:11.5px;color:#6b7688;margin-top:2px}
-.arrow{margin-left:auto;color:#9aa6b4;font-size:18px}
-.note{font-size:11.5px;color:#6b7688;line-height:1.7;margin-top:18px}
-a.back{display:inline-block;color:#12459e;text-decoration:none;font-size:13px;font-weight:700;margin-bottom:10px}
-.t{display:block} .d{display:block}
-
-.head{background:linear-gradient(135deg,#0b2d6b,#12459e);border-bottom-color:#d7000f}
-.sec{border-left-color:#d7000f} .badge{background:#12459e} .badge.w{background:#d7000f}
-.no{display:inline-block;min-width:2.1em;text-align:right;font-weight:800;color:#12459e;
-  margin-right:9px;font-variant-numeric:tabular-nums}
-a.link{display:inline-block;margin:10px 0 0;padding:7px 14px;border-radius:999px;
-  background:#12459e;color:#fff;text-decoration:none;font-size:12.5px;font-weight:700}
-</style></head><body><div class=wrap>
-<a class=back href="../">‹ 戻る</a><div class=head><h1>#206 山浅龍之介（内部用）</h1><p>解析用レポート</p></div>
-<div class=sec>フォルダ</div><a class=item href="月次/"><span class="badge ">月次</span><span><span class=t>月次</span><span class=d>1件</span></span><span class=arrow>›</span></a><a class=item href="週次/"><span class="badge w">週次</span><span><span class=t>週次</span><span class=d>1件</span></span><span class=arrow>›</span></a><div class=sec>配布用</div><a class=link href="https://shun1210.github.io/fb/p/KE8VIgxdEQri0r5xO5uClonObFGSk7ra/" target="_blank" rel="noopener">選手に渡しているページを開く ›</a><p class=note style="margin-top:8px">このリンクが本人に渡しているURLです。</p>
-<p class=note>社内用。選手には配布しないこと。</p>
-</div></body></html>
+.box{max-width:360px;margin:16vh auto;background:#fff;border:1px solid #e1e8f3;border-radius:14px;
+ padding:22px;box-shadow:0 2px 10px rgba(11,45,107,.10);border-top:4px solid #d7000f}
+h1{margin:0 0 4px;font-size:17px;color:#0b2d6b} p{margin:0 0 14px;font-size:12px;color:#6b7688}
+input{width:100%;padding:11px 12px;font-size:16px;border:1px solid #cfd8e8;border-radius:9px}
+button{width:100%;margin-top:10px;padding:11px;font-size:14px;font-weight:700;color:#fff;
+ background:#12459e;border:0;border-radius:9px;cursor:pointer}
+.err{color:#d7000f;font-size:12px;margin-top:9px;min-height:1em}
+</style></head><body>
+<div class=box id=gate>
+ <h1>スタッフ用ページ</h1><p>パスワードを入力してください。</p>
+ <input id=pw type=password autocomplete=current-password placeholder="パスワード">
+ <button id=go>開く</button><div class=err id=err></div>
+</div>
+<script>
+const D={"salt": "Y4kfty5AkkRQksK2rQrVfw==", "iv": "e+GpDiGSrHaalV37", "ct": "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", "iter": 200000};
+const dec=new TextDecoder(), enc=new TextEncoder();
+const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function key(pw){
+  const m=await crypto.subtle.importKey('raw',enc.encode(pw),'PBKDF2',false,['deriveKey']);
+  return crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(D.salt),iterations:D.iter,hash:'SHA-256'},
+    m,{name:'AES-GCM',length:256},false,['decrypt']);
+}
+async function open_(pw){
+  const k=await key(pw);
+  const buf=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(D.iv)},k,b64(D.ct));
+  document.open(); document.write(dec.decode(buf)); document.close();
+}
+async function tryOpen(pw,quiet){
+  try{ await open_(pw); sessionStorage.setItem('fbpw',pw); return true; }
+  catch(e){ if(!quiet){ document.getElementById('err').textContent='パスワードが違います'; }
+             sessionStorage.removeItem('fbpw'); return false; }
+}
+(async()=>{ const s=sessionStorage.getItem('fbpw'); if(s) await tryOpen(s,true); })();
+document.getElementById('go').onclick=()=>tryOpen(document.getElementById('pw').value,false);
+document.getElementById('pw').addEventListener('keydown',e=>{if(e.key==='Enter')
+  tryOpen(document.getElementById('pw').value,false);});
+</script></body></html>

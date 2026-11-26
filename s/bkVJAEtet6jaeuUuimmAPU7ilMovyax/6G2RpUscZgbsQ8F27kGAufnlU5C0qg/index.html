@@ -1,31 +1,42 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="googlebot" content="noindex,nofollow">
-<title>#31 森駿太（内部用）</title><style>
+<!--fbsite-locked--><!doctype html><html lang=ja><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>スタッフ用</title><style>
 *{box-sizing:border-box}body{margin:0;font-family:'Hiragino Sans',sans-serif;background:#eef2f8;color:#1a2233}
-.wrap{max-width:720px;margin:0 auto;padding:18px}
-.head{background:linear-gradient(135deg,#0b2d6b,#12459e);color:#fff;border-radius:14px;padding:18px 20px;border-bottom:4px solid #d7000f}
-.head h1{margin:0;font-size:22px} .head p{margin:6px 0 0;font-size:12px;opacity:.9}
-.sec{font-size:14px;font-weight:800;color:#0b2d6b;border-left:5px solid #d7000f;padding-left:9px;margin:22px 0 8px}
-a.item{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e1e8f3;border-radius:12px;
-  padding:14px 16px;margin-top:9px;text-decoration:none;color:#1a2233;box-shadow:0 1px 4px rgba(11,45,107,.08)}
-a.item:active{background:#f3f7ff}
-.badge{font-size:11px;font-weight:800;color:#fff;background:#12459e;border-radius:6px;padding:3px 9px;white-space:nowrap}
-.badge.w{background:#1b9e77}
-.badge.m{background:#6b7688}
-.t{font-size:15px;font-weight:700} .d{font-size:11.5px;color:#6b7688;margin-top:2px}
-.arrow{margin-left:auto;color:#9aa6b4;font-size:18px}
-.note{font-size:11.5px;color:#6b7688;line-height:1.7;margin-top:18px}
-a.back{display:inline-block;color:#12459e;text-decoration:none;font-size:13px;font-weight:700;margin-bottom:10px}
-.t{display:block} .d{display:block}
-
-.head{background:linear-gradient(135deg,#0b2d6b,#12459e);border-bottom-color:#d7000f}
-.sec{border-left-color:#d7000f} .badge{background:#12459e} .badge.w{background:#d7000f}
-.no{display:inline-block;min-width:2.1em;text-align:right;font-weight:800;color:#12459e;
-  margin-right:9px;font-variant-numeric:tabular-nums}
-a.link{display:inline-block;margin:10px 0 0;padding:7px 14px;border-radius:999px;
-  background:#12459e;color:#fff;text-decoration:none;font-size:12.5px;font-weight:700}
-</style></head><body><div class=wrap>
-<a class=back href="../">‹ 戻る</a><div class=head><h1>#31 森駿太（内部用）</h1><p>解析用レポート</p></div>
-<div class=sec>フォルダ</div><a class=item href="月次/"><span class="badge ">月次</span><span><span class=t>月次</span><span class=d>1件</span></span><span class=arrow>›</span></a><a class=item href="週次/"><span class="badge w">週次</span><span><span class=t>週次</span><span class=d>1件</span></span><span class=arrow>›</span></a><div class=sec>配布用</div><a class=link href="https://shun1210.github.io/fb/p/6G2RpUscZgbsQ8F27kGAufnlU5C0qg/" target="_blank" rel="noopener">選手に渡しているページを開く ›</a><p class=note style="margin-top:8px">このリンクが本人に渡しているURLです。</p>
-<p class=note>社内用。選手には配布しないこと。</p>
-</div></body></html>
+.box{max-width:360px;margin:16vh auto;background:#fff;border:1px solid #e1e8f3;border-radius:14px;
+ padding:22px;box-shadow:0 2px 10px rgba(11,45,107,.10);border-top:4px solid #d7000f}
+h1{margin:0 0 4px;font-size:17px;color:#0b2d6b} p{margin:0 0 14px;font-size:12px;color:#6b7688}
+input{width:100%;padding:11px 12px;font-size:16px;border:1px solid #cfd8e8;border-radius:9px}
+button{width:100%;margin-top:10px;padding:11px;font-size:14px;font-weight:700;color:#fff;
+ background:#12459e;border:0;border-radius:9px;cursor:pointer}
+.err{color:#d7000f;font-size:12px;margin-top:9px;min-height:1em}
+</style></head><body>
+<div class=box id=gate>
+ <h1>スタッフ用ページ</h1><p>パスワードを入力してください。</p>
+ <input id=pw type=password autocomplete=current-password placeholder="パスワード">
+ <button id=go>開く</button><div class=err id=err></div>
+</div>
+<script>
+const D={"salt": "Y4kfty5AkkRQksK2rQrVfw==", "iv": "Mqly57SYyuUZ04Uc", "ct": "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", "iter": 200000};
+const dec=new TextDecoder(), enc=new TextEncoder();
+const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function key(pw){
+  const m=await crypto.subtle.importKey('raw',enc.encode(pw),'PBKDF2',false,['deriveKey']);
+  return crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(D.salt),iterations:D.iter,hash:'SHA-256'},
+    m,{name:'AES-GCM',length:256},false,['decrypt']);
+}
+async function open_(pw){
+  const k=await key(pw);
+  const buf=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(D.iv)},k,b64(D.ct));
+  document.open(); document.write(dec.decode(buf)); document.close();
+}
+async function tryOpen(pw,quiet){
+  try{ await open_(pw); sessionStorage.setItem('fbpw',pw); return true; }
+  catch(e){ if(!quiet){ document.getElementById('err').textContent='パスワードが違います'; }
+             sessionStorage.removeItem('fbpw'); return false; }
+}
+(async()=>{ const s=sessionStorage.getItem('fbpw'); if(s) await tryOpen(s,true); })();
+document.getElementById('go').onclick=()=>tryOpen(document.getElementById('pw').value,false);
+document.getElementById('pw').addEventListener('keydown',e=>{if(e.key==='Enter')
+  tryOpen(document.getElementById('pw').value,false);});
+</script></body></html>

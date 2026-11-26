@@ -1,31 +1,42 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="googlebot" content="noindex,nofollow">
-<title>#7 福永裕基（内部用）｜ 週次</title><style>
+<!--fbsite-locked--><!doctype html><html lang=ja><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>スタッフ用</title><style>
 *{box-sizing:border-box}body{margin:0;font-family:'Hiragino Sans',sans-serif;background:#eef2f8;color:#1a2233}
-.wrap{max-width:720px;margin:0 auto;padding:18px}
-.head{background:linear-gradient(135deg,#0b2d6b,#12459e);color:#fff;border-radius:14px;padding:18px 20px;border-bottom:4px solid #d7000f}
-.head h1{margin:0;font-size:22px} .head p{margin:6px 0 0;font-size:12px;opacity:.9}
-.sec{font-size:14px;font-weight:800;color:#0b2d6b;border-left:5px solid #d7000f;padding-left:9px;margin:22px 0 8px}
-a.item{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e1e8f3;border-radius:12px;
-  padding:14px 16px;margin-top:9px;text-decoration:none;color:#1a2233;box-shadow:0 1px 4px rgba(11,45,107,.08)}
-a.item:active{background:#f3f7ff}
-.badge{font-size:11px;font-weight:800;color:#fff;background:#12459e;border-radius:6px;padding:3px 9px;white-space:nowrap}
-.badge.w{background:#1b9e77}
-.badge.m{background:#6b7688}
-.t{font-size:15px;font-weight:700} .d{font-size:11.5px;color:#6b7688;margin-top:2px}
-.arrow{margin-left:auto;color:#9aa6b4;font-size:18px}
-.note{font-size:11.5px;color:#6b7688;line-height:1.7;margin-top:18px}
-a.back{display:inline-block;color:#12459e;text-decoration:none;font-size:13px;font-weight:700;margin-bottom:10px}
-.t{display:block} .d{display:block}
-
-.head{background:linear-gradient(135deg,#0b2d6b,#12459e);border-bottom-color:#d7000f}
-.sec{border-left-color:#d7000f} .badge{background:#12459e} .badge.w{background:#d7000f}
-.no{display:inline-block;min-width:2.1em;text-align:right;font-weight:800;color:#12459e;
-  margin-right:9px;font-variant-numeric:tabular-nums}
-a.link{display:inline-block;margin:10px 0 0;padding:7px 14px;border-radius:999px;
-  background:#12459e;color:#fff;text-decoration:none;font-size:12.5px;font-weight:700}
-</style></head><body><div class=wrap>
-<a class=back href="../">‹ 戻る</a><div class=head><h1>#7 福永裕基（内部用）｜ 週次</h1><p>新しい順</p></div>
-<div class=sec>週次一覧</div><p class=note>まだありません。</p>
-<p class=note>社内用。選手には配布しないこと。</p>
-</div></body></html>
+.box{max-width:360px;margin:16vh auto;background:#fff;border:1px solid #e1e8f3;border-radius:14px;
+ padding:22px;box-shadow:0 2px 10px rgba(11,45,107,.10);border-top:4px solid #d7000f}
+h1{margin:0 0 4px;font-size:17px;color:#0b2d6b} p{margin:0 0 14px;font-size:12px;color:#6b7688}
+input{width:100%;padding:11px 12px;font-size:16px;border:1px solid #cfd8e8;border-radius:9px}
+button{width:100%;margin-top:10px;padding:11px;font-size:14px;font-weight:700;color:#fff;
+ background:#12459e;border:0;border-radius:9px;cursor:pointer}
+.err{color:#d7000f;font-size:12px;margin-top:9px;min-height:1em}
+</style></head><body>
+<div class=box id=gate>
+ <h1>スタッフ用ページ</h1><p>パスワードを入力してください。</p>
+ <input id=pw type=password autocomplete=current-password placeholder="パスワード">
+ <button id=go>開く</button><div class=err id=err></div>
+</div>
+<script>
+const D={"salt": "Y4kfty5AkkRQksK2rQrVfw==", "iv": "j6WVwfgxyXwYiv7t", "ct": "1nPf5OPo6v5eUoEuyKyCU6aGj/nxICNXodjO/mM/YxGldEeX/6zp/yaVKoAawWOfSjnD1sBwGskD3NGNOwJv3QGQqJywPYAedf5F3amWpciFvj/dCUy3H2+XxE8d4+7wGyK/zReDC8Z80tSASG1tEuFEeT6RHPxN79dJzRO22/jZFjoD+VVd57gKc1RK4CHMWOLb2DmsUE02MG3fT11LJT85ByLN6jx6CeURRXIILrZVAtpFLlWtXEaddvoTHT/GVznUUvU2yQbmvJPrI1rd+eySYMYivrqyWcJwH0W0tjrkhr+L3J5JeqF7DK6vGIIhkt0fo5yGsobam5iXvsMqQmLtGgR7cygUCeeToIFfyxxfct/2TIaGeNuxcLUyEdgTawtKQGYisnR6JPW0FeE6MMJ6tsbWBcKsVsJewcN4HWtnUu1ejscjS3Ti3xGNMiIPS4b1vh+J3j6SeKmD16Vg+I1FsvxlwzVMZw11WjjUO1EvyEZt5vbqUfEyAI2iQYnWDQQTUnfFjHRy1ljL+6Y+YW1EOtjCkF2R3daNXqAND3IwE+VQwO+97Q/7QJfwRp/QAycvQrbXKs0UUHz2anA+4TofwOUoVUWEd4FuJGYLKe0qvEzQEts92zu0gfcTzgyd3vl01+R9x04PcGKm7uKeSXSoQ/zbX/To50SOrhr3NNdEKzEJNoOl0C705xlTl7vlthNOeqNTs9951p7tDq1l1kgc+Fsxgo3UOngsDVLY/1pnDpbx9qD5Oi5svlp7/++9JQ1ykKzoSJxYL8/XK+ftZKuo5QQn4N7UGj0eXQsADfktKwxgW2/JAh9a38d/MY/Jrq3gCkp+KGwT6cNgdo394MkUuf/BrNulrJTCgOzlmme3gmxvlvREjE9gcU9uP2B4rWynCc9AvFrbaNsNgPfi6nglT0S9tXvEtgBatDh/iZfLUoz8QtbGtz92HtovaZprm/vSfB+h4btm8/i4dhFfUpk2dzF5hY8O8YZ1Jg2pIFC526uadLmWcxkELTWj/1T2TOOZ/Mv8x4oouhdrlEl/V1GT7Bx+hVapZwvxQGMkpstvipkQHUwmdqnZKL2Rh+gIq87qJuO7dvcD5bka2uwNFgsZTKAk/xXOcFoxutjLNIZOeJmJCvFaCL8IEio/U+oWy2aWeLLxzRXzLY7EjHy9IWYMe3G2VM8obIcdwlIAI5xj1WR7ulFfvBPavUqYoexajzZupThBbZDtsvW03rZ5Y8/B7rbznp+Nk3K++ConVhn7zdcixBGauzFgyhTQHkaDEE4w8CeQCILU0eKz14qg/hoeWFi7qTvuxY/JTUjzXk2eGECgGC+Ao4QaZllST+ihFJUJlrS6HKMcfZR+MoKDbAmKp5/Cn1ncM4qpVKUGcjJfvDv6v2Z0jxO7I3oCwwUDAqLV2v/MKjZYvC1G/fchjY0Lod9lSYJiOpONvIlt2aPqjuLNb5eHpCpTnxEq4DO5mtG/k75F4MRrCq5+5CQdlPki5GON6xM6J04o4q9C0Xp25q6DgJlMJ9/Uu2+Qo0oMVrHWAYjOkEyUrhrO/58uq2b+VzRkcVegyssIR9kYXIZi9TFDui/OQtQaanJEyBrDLUTvbp5dnn44gDbmUh8fYbi7ssFHqb3WAbCBbMScMUFwQS9fGyGBz01IzAg6M6pHCizUUsNuao4oUkTRGlddRPPt4/KRBGf+/HbcYTtUOF5PR5TG8ZyiVH11KgBcR+EH/5tuA6kQ35K5B3pOh0+5IESDZdbwnXwLpvVMj8W4+CiSDk12qNR9mMorz/4b+wzetEQSq+skCtq53mLXau7hwMRzKqInTVHJTjvX3YMjaBKI5AAzevr9A4r8JycqWPnVWNIpqrGSgvHnQ8m8hYTmKD179JLsNArV6QKt/0Kqb2MRjOfwHtr8MwsAehtcETAb7F65FZmalGZivkBFHcbicQcZiktkcu4gzH3m483aDMc+Q4vCy0uHbSRRcUpaI10+vK1gsnQtQBR3o6Yk2fCCYyBdrzlbS45D49615lOw0xV5m1sdU/2MdbcNq07a3wm+s4ZBSvoSTP51puFivJ6OuHHzn4rx9ZwXh8GQLEczDsk2zemToisT1+2WNi++VnFSO/xY4M1lBlv43LVmr7BgwrxNceT4+DOxG/jCLB4PZRWt3cvf2Kf2QsJfqUA/nmhQzp/pNmsXc+JhG34tcLmWzV27iL1H+GlHeGaIByS5vFyTOKES51tp65HHcz+AHzzeqeUqp0qvkIyLLZ1NvT5Afp/twSaJZ6ebxRJJHNoDDcwfQsXCbYfjoiCdHMfwX4lYUBLoobdUiLO2OFIueTHfyc5CXv6dGbD1u6BFnU9xaV0/1J9PP4JTzMMlA4T1Axr2X+KQnjZWr5eX0ORnVHi0gcDKgN6i6y67T+74PPDYL6ZNbSY94/EkrSuID8i+7/+P1kdVL3wPHVhi2Ap8gvSDctIOjdDxfOLX9qBeP9E040t7YcN4gBOPE88Km0euhkmSpwYcY0jfvSvbtVDtG8r3n5xUk8LAYHkRIW/ttLUGEFvEdjbEsajPveppDBB/584nY5z6BqaOXQsgAV8LnC3pRDiM1iBJtPJ7EDRL0AccTu8rILVm+rAKFldm+XTdr3k9plhMlIJZPuhimMU10ZvK5++YbCVXzX+RVzqAuyrjE5vvqa80BNkwPBnp6E6IZ3yqXoHGf3JtuGKZneMGr2tHSYjr4R3kCZDVlvlljUixDfazr2XhqO0sYQeUkLRGcyycjaBI/dOgbo/AtXwY6rizrCprR2ZBygwjDmvgoSaUEAKrU1EX9iutSCAWcJYiW+Fuh7UWHZOSn5Qt6VhNeJBnW451FGbSQO/K7pKyuSg4VpV5/gdSLbwXPB25MoWWGr0AkbUCwsRiBvfe0N20OHj3l5P89QOr1hs3RW/8oIvaSfmeidwEx7WNY/jHc7Qtk75w2MpubL7WD90Bg8LEBagbHkrx+FeloFFhgzuO9Mn5l7WiAgDAvZ0WAFNa6lIOzBgVzAT5xpFUpK978+snqa0sFUhXVp02y13YdlY5wJYmALr6wOFO7uSDkAsOl1K8koakMHerIi9B6WaCcWO+Rd56C+NS4p4LSeUvMhT86v28pUq4gVG/4vhv7uVPrf7qWtHdb8FaPTwjGX+UolnTVbaNmSjFBkXvykO8t0wDJqPitDweegsahoLpF4L7hBKXFvTP2XucxrSY7eVxuw58WrpIW/a4LbJ7MtpzwEj0Df56cvP31OgSesWl/2sIq+Xu4yg9ikW66O6BztFwZ9vijgvmF4+OmounforyCcqHfeHDQWRr57fjguOjKq/jKzOrBRAC2mqTarni+VsvnU0ggzkhYMj9x5sesUHNaHqwfbR8uBQUcVeNM7MqUGHFq2McMpSszv+lvqnLsHXH+c/VYJKAXKrNnV09p8ghDLhfLMMomOFLP0/69d0LAKH5F39x2XxwYGWCPYZG53+OOUlRfrBvpM108NStZWsp3JRzm3qYQpg67Zr5L7Z33Nor8fxEnGRDxYfbhdJ8a72jP89wsarWv3SEKhZxBAbXub8k53DQQAQamESHp9vblO9UAIZVovfyGQs0oBjMfaDiilqwttNRb33mB7rf6tXwStumrNiSPGMwUWSl5s8Bd6T2zIrwZAGmcVCp9mIsQExLgnJ4IQLKCtnHCY9GCSQdMxMAMFwu33jX+UZikEOfqsh9CxDvaUcte8bCFVlB4v8KlqBMZ0z118MJkA0FpR2SL79xy3zOONBpVs9fg8tmIUhxbm5vyHLMGKLyiAfJJWqZbBDd2EtBs8NKS0LA6V+AvcVwSAcmtFo3eDX0uH7Ul2b0PwpCYz/prBaLKE3vo5CZn2Zcm1bQ9e+bLi4u7DDrBVZ8A6F6jHY+Gd+G0UUzdG5q3NBPWEUEvuB7fniZgLQKM1T3UOY14co2xfe0lwumd8sTZdXCSZstP5Q3QwBmx2bklGaX0TSk/mz8bRExy6eF7E0+Kqb+EG7Cae1s4KE8T8mlHN0bdQW9KDfb4RBJcQTaX3Q6i6VRBasJ5wpiqDMplTpqhAY+KjwjSw8GLzKYaav5EhJ88ZzfsuEDkmKd/xJEDeX56AreRQeelL/JUP2xx1fog3v43s+HmKupSg8jrHF4UvKZQZm/RydGZJptYvB8zikE7lFIOekcImw83rHv9HRBfmD7GiI1HxMGVuK/wXSdrqLgVNGVfgSYK73h9emBm/tsKNjy7x5ocAyUsUPv/0iYbjUQ8TdhTpNkYTtGKBImNlmEBdWD3vy40li1nzajECM0XFBzucHju7Y0WdtDYCrSc/nhXXrBLfXtXB7HtpepTLuyNjk2TQepFWJqoA5TVJk9B587T8Pk0CpNHcUV2Zx1ribrVn7hkcfh0l7IpGA0jTtKg9Wuq/4viMxObJtFzKLQ+FqgRJY7HnuTpWbuxwq74rQzJwgFTZRZ+xlOAii1fCkk0BZU3i2kCjAkrwpr", "iter": 200000};
+const dec=new TextDecoder(), enc=new TextEncoder();
+const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function key(pw){
+  const m=await crypto.subtle.importKey('raw',enc.encode(pw),'PBKDF2',false,['deriveKey']);
+  return crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(D.salt),iterations:D.iter,hash:'SHA-256'},
+    m,{name:'AES-GCM',length:256},false,['decrypt']);
+}
+async function open_(pw){
+  const k=await key(pw);
+  const buf=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(D.iv)},k,b64(D.ct));
+  document.open(); document.write(dec.decode(buf)); document.close();
+}
+async function tryOpen(pw,quiet){
+  try{ await open_(pw); sessionStorage.setItem('fbpw',pw); return true; }
+  catch(e){ if(!quiet){ document.getElementById('err').textContent='パスワードが違います'; }
+             sessionStorage.removeItem('fbpw'); return false; }
+}
+(async()=>{ const s=sessionStorage.getItem('fbpw'); if(s) await tryOpen(s,true); })();
+document.getElementById('go').onclick=()=>tryOpen(document.getElementById('pw').value,false);
+document.getElementById('pw').addEventListener('keydown',e=>{if(e.key==='Enter')
+  tryOpen(document.getElementById('pw').value,false);});
+</script></body></html>
